@@ -49,15 +49,19 @@
 
     .form {
         &__input {
-        color: #fff;
-        font-size: 14px;
-        padding-left: 20px;
-        min-width: 270px;
-        min-height: 50px;
-        background-color: transparent;
-        border: 2px solid #CACACA;
-        border-radius: 3px;
-        box-sizing: border-box;
+            color: #fff;
+            font-size: 14px;
+            padding-left: 20px;
+            min-width: 270px;
+            min-height: 50px;
+            background-color: transparent;
+            border: 2px solid #CACACA;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        &__input::placeholder {
+            color: #fff;
         }
 
         &__btn {
